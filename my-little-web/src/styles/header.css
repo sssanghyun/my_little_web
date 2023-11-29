@@ -1,0 +1,43 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    box-shadow: 0 0 3px #000;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.header__start{
+    line-height: 40px;
+    width: 20%;
+}
+.header__title{
+    display: block;
+}
+
+.header__center{
+    width: 60%;
+}
+.nav{
+
+}
+.nav__wrapper{
+    display: flex;
+    background-color: tomato;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav__wrapper li{
+    display: flex;
+    padding: 10px 16px 10px;
+}
+
+.header__end{
+    width: 20%;
+}
