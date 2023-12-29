@@ -1,10 +1,35 @@
 import Layout from "@/components/Layout";
 import '@/styles/header.css';
+import '@/styles/intro.css';
+import '@/styles/career.css';
+import '@/styles/stack.css';
+import '@/styles/portfolio.css';
+import '@/styles/phone.css';
 
 export default function App({Component, pageProps}){
 	return (
-		<Layout>
-		    <Component {...pageProps} />
-		</Layout>
+		<>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+			
+			<style jsx global>
+				{`
+				body {
+					margin: 0;
+				}
+				@font-face {
+					font-family: 'JalnanGothic';
+					src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+					font-weight: normal;
+					font-style: normal;
+				}
+				*{
+					box-sizing: border-box;
+					font-family: 'JalnanGothic';	
+				}
+				`}
+			</style>
+		</>
         );
 }

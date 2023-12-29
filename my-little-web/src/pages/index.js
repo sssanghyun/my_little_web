@@ -4,20 +4,20 @@ export default function Home() {
     return(
         <>
             <Seo title="Ssanghyun's 포트폴리오"/>
-            <div>
-                Hello
+            <div id="intro">
+                "이곳은 intro 페이지입니다"
             </div>
-            <div>
-                Hello
+            <div id="career">
+                "이곳은 경력 페이지입니다"
             </div>
-            <div>
-                Hello
+            <div id="stack">
+                이곳은 스택영역
             </div>
-            <div>
-                Hello
+            <div id="portfolio">
+                이곳은 포트폴리오영역
             </div>
-            <div>
-                Hello
+            <div id="phone">
+                이곳은 폰 영역
             </div>
         </>
     );

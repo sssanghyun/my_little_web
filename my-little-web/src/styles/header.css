@@ -1,43 +1,80 @@
+/* 웹페이지 상단 헤더영역의 CSS 관리 */
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    background-color: gray;
-    box-shadow: 0 0 3px #000;
+    /* box-shadow: 0 0 3px #000; */
 }
+/* 헤더 영역을 나눔 */
 .header__wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: 6.25rem;
 }
+
 .header__start{
-    line-height: 40px;
+    line-height: 2.5rem;
     width: 20%;
 }
 .header__title{
     display: block;
+    padding-left: 5%;
+    color: #A4A4A4;
+
 }
 
 .header__center{
     width: 60%;
+}
+a{
+    text-decoration-line: none;
+    color: black;
 }
 .nav{
 
 }
 .nav__wrapper{
     display: flex;
-    background-color: tomato;
     list-style: none;
     justify-content: center;
     align-items: center;
 }
 .nav__wrapper li{
+    font-size: 1.5rem;
     display: flex;
-    padding: 10px 16px 10px;
+    padding: 5%;
 }
 
 .header__end{
     width: 20%;
+}
+
+img{
+    max-width:40%; 
+    height:auto;
+    float: right;
+    padding-right: 5%;
+}
+
+/* 우측 nav bar */
+/* .nav{
+
+} */
+.nav__right{
+    position: fixed;
+    right: 3rem;
+    top: 38.5%;
+    justify-content: center;
+    align-items: center;
+}
+.nav__right__wrapper{
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: -10px;
+    padding-right: 0;
+    display: flex;
+}
+.nav__right__wrapper li{
+    font-size: 0.1;
+    display: flex;
+    padding: 1rem;
 }
