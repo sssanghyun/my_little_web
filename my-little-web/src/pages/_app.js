@@ -15,6 +15,9 @@ export default function App({Component, pageProps}){
 			
 			<style jsx global>
 				{`
+				html {
+					scroll-behavior: smooth;
+				}
 				body {
 					margin: 0;
 				}
@@ -24,9 +27,14 @@ export default function App({Component, pageProps}){
 					font-weight: normal;
 					font-style: normal;
 				}
+				@font-face {
+					font-family: 'NotoSansKr';
+					src: url('/fonts/NotoSansKR-Medium.otf') format('opentype');
+					font-weight: normal;
+					font-style: normal;
+				}
 				*{
 					box-sizing: border-box;
-					font-family: 'JalnanGothic';	
 				}
 				`}
 			</style>

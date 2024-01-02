@@ -1,6 +1,10 @@
+const darkmode_function = () => {
+    alert("구현중");
+}
+
 export default function Header() {
     return (
-        <div className="header">
+        <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__start">
                     <span className="header__title">
@@ -22,10 +26,10 @@ export default function Header() {
 
                 <div className="header__end">
                     {/* 다크모드 현재 미구현 */}
-                    <img src="darkmode.png"></img>
+                    <img className="darkmode" src="darkmode.png" onClick={darkmode_function}></img>
                     {/* <button className="header__mode">다크모드</button> */}
                 </div>
             </div>
-        </div>
+        </header>
     )
 }

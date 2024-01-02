@@ -1,12 +1,11 @@
 import Seo from "@/components/Seo";
+import Intro from "@/components/Intro";
 
 export default function Home() {
     return(
         <>
             <Seo title="Ssanghyun's 포트폴리오"/>
-            <div id="intro">
-                "이곳은 intro 페이지입니다"
-            </div>
+            <Intro/>
             <div id="career">
                 "이곳은 경력 페이지입니다"
             </div>
