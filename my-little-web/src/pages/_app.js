@@ -27,14 +27,19 @@ export default function App({Component, pageProps}){
 					font-weight: normal;
 					font-style: normal;
 				}
-				@font-face {
-					font-family: 'NotoSansKr';
-					src: url('/fonts/NotoSansKR-Medium.otf') format('opentype');
-					font-weight: normal;
-					font-style: normal;
+				@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+				.notosanskr * { 
+				font-family: 'Noto Sans KR', sans-serif;
 				}
 				*{
 					box-sizing: border-box;
+				}
+				@font-face {
+					font-family: 'IBMPlexSansKR-Regular';
+					src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+					font-weight: normal;
+					font-style: normal;
 				}
 				`}
 			</style>
