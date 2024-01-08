@@ -89,7 +89,7 @@ export default function Intro() {
                             Github
                         </div>
                         <div className="intro_intro_text5">
-                            <a href="https://github.com/sssanghyun">(링크)</a>
+                            <a className="intro_intro_a" href="https://github.com/sssanghyun">sssanghyun</a>
                         </div>
                     </div>
                 </div>

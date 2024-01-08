@@ -1,10 +1,104 @@
 #stack{
     width: 100%;
-    height: 67.5rem;
+    height: 100vh;
     margin: 0 auto;
     padding-top: 4.6875rem;
     color: black;
-    max-width: 67.5rem;
-    margin: 0 auto;
     font-family: Noto Sans KR;
+    background-color: lightcoral;
+}
+.stack__title{
+    color:white;
+    font-family: 'JalnanGothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight:700;
+    margin-bottom: 8vh;
+}
+.stack__wrapper{
+    margin: 0 auto;
+    max-width: 60vw;
+    height: 75vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    font-family: 'JalnanGothic';
+}
+.stack__frontend{
+    grid-column: 1 / -1;
+    background-color: white;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.stack__backend,
+.stack__database,
+.stack__version,
+.stack__os{
+    background-color: white;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.stack__wrapper__title{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-top: 1vw;
+    padding-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.15rem solid lightgrey;
+    color: lightcoral;
+}
+.stack__wrapper__skills{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.stack__wrapper__skills__frontend{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/frontend.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.stack__wrapper__skills__backend{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/backend.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.stack__wrapper__skills__database{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/database.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.stack__wrapper__skills__os{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/os.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.stack__wrapper__skills__versioncontrol{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../public/versioncontrol.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

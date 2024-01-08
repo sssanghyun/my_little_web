@@ -5,7 +5,7 @@
     padding-top: 4.6875rem;
     color: black;
     font-family: Noto Sans KR;
-    margin-bottom: 5%;
+    /* margin-bottom: 5vh; */
     background-color: #f6f6f6;
 }
 .career__title{
@@ -16,11 +16,11 @@
     align-items: center;
     font-size: 2.5rem;
     font-weight:700;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
 }
 .career__career1{
     margin: 0 auto;
-    max-width: 55vw;
+    max-width: 70vw;
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
     font-family: 'IBMPlexSansKR-Regular';
@@ -29,6 +29,11 @@
     display: flex;
     align-items: center;
     justify-self: center;
+}
+img.career__career1__symbol{
+    width: 75%;
+    margin: 0 auto;
+    /* height: ; */
 }
 .career__career1__line{
     margin: 0 auto;
@@ -39,17 +44,17 @@
 }
 .career__career1__period{
     color: gray;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight:600;
 }
 .career__career1__title{
     color: black;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight:700;
 }
 .career__career1__subtitle{
     color: black;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight:600;
 }
 .career__career1__line__circle{
@@ -65,9 +70,12 @@
     width: 0.25rem;
     height: 100%;
 }
+/* .career__career1__ul{
+    width: 100%;
+} */
 .career__career1__li{
-    padding: 2%;
-    font-size: 1rem;
+    padding: 1%;
+    font-size: 0.75rem;
     font-weight:600;
     color: rgb(94, 94, 94);
 }
