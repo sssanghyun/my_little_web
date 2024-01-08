@@ -34,6 +34,14 @@ export default function App({Component, pageProps}){
 				}
 				*{
 					box-sizing: border-box;
+					overflow: scroll;
+					/* IE scroll 숨김 */
+					-ms-overflow-style: none;
+
+				}
+				*::-webkit-scrollbar { 
+					display: none;
+					width: 0 !important;
 				}
 				@font-face {
 					font-family: 'IBMPlexSansKR-Regular';

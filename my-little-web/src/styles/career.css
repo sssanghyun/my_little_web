@@ -1,6 +1,6 @@
 #career{
     width: 100%;
-    height: 67.5rem;
+    height: 100vh;
     margin: 0 auto;
     padding-top: 4.6875rem;
     color: black;
@@ -16,11 +16,11 @@
     align-items: center;
     font-size: 2.5rem;
     font-weight:700;
-    margin-bottom: 5%;
+    margin-bottom: 10vh;
 }
 .career__career1{
     margin: 0 auto;
-    max-width: 67.5rem;
+    max-width: 55vw;
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
     font-family: 'IBMPlexSansKR-Regular';
@@ -34,8 +34,8 @@
     margin: 0 auto;
 }
 .career__career1__comment{
-    padding-left: 3rem;
-    padding-bottom: 3rem;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
 }
 .career__career1__period{
     color: gray;
@@ -58,7 +58,6 @@
     background-color: rgb(50, 50, 50);
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 0.3rem;
 }
 .career__career1__line__line{
     margin: 0 auto;
