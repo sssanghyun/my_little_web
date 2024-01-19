@@ -70,9 +70,9 @@ img.career__career1__symbol{
     width: 0.25rem;
     height: 100%;
 }
-/* .career__career1__ul{
-    width: 100%;
-} */
+.career__career1__ul{
+    margin-left: -1rem;
+}
 .career__career1__li{
     padding: 1%;
     font-size: 0.75rem;

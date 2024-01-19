@@ -8,6 +8,9 @@
     width: 100%;
     z-index: 1;
 }
+.active{
+    background-color: white;
+}
 /* 헤더 영역을 나눔 */
 .header__wrapper{
     display: flex;

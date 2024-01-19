@@ -4,7 +4,7 @@ import '@/styles/intro.css';
 import '@/styles/career.css';
 import '@/styles/stack.css';
 import '@/styles/portfolio.css';
-import '@/styles/phone.css';
+// import '@/styles/phone.css';
 
 export default function App({Component, pageProps}){
 	return (

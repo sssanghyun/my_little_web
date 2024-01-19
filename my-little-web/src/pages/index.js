@@ -1,67 +1,44 @@
 import Seo from "@/components/Seo";
 import Intro from "@/components/Intro";
 import Career from "@/components/Career";
+import Stack from "@/components/Stack";
+
+// 스크롤 시 한페이지씩 넘어가는 기능
+// if (typeof window === 'object') {
+//     // Check if document is finally loaded
+//     // const wrap = document.getElementsByClassName('wrap')[0]; // 보일 영역
+//     const screen_height = window.innerHeight;
+//     const section = document.getElementsByClassName('section');
+//     let page = 0; // 영역 포지션 초기값
+//     const lastPage = section.length - 1; // 마지막 페이지
+    
+//     window.addEventListener('wheel',(e)=>{
+//         e.preventDefault();
+//         if(e.deltaY > 0){
+//             page++;
+//         }else if(e.deltaY < 0){
+//             page--;
+//         }
+//         if(page < 0){
+//             page=0;
+//         }else if(page > lastPage){
+//             page = lastPage;
+//         }
+//         console.log(e.deltaY)
+//         window.scrollTo(0, screen_height * page);
+//     },{passive:false}); // 디폴트 기능 제거 - 스크롤
+// }
 
 export default function Home() {
     return(
-        <>
+        <div className="wrap">
             <Seo title="Ssanghyun's 포트폴리오"/>
             <Intro/>
             <Career/>
-            <div id="stack">
-                <div className="stack__title">
-                    SKILLS
-                </div>
-                <div className="stack__wrapper">
-                    <div className="stack__frontend">
-                        <div className="stack__wrapper__title">
-                            Frontend
-                        </div>
-                        <div className="stack__wrapper__skills">
-                            <div className="stack__wrapper__skills__frontend">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="stack__backend">
-                        <div className="stack__wrapper__title">
-                            Backend
-                        </div>
-                        <div className="stack__wrapper__skills__backend">
-                        </div>
-                    </div>
-
-                    <div className="stack__database">
-                        <div className="stack__wrapper__title">
-                            Database
-                        </div>
-                        <div className="stack__wrapper__skills__database">
-                        </div>
-                    </div>
-
-                    <div className="stack__os">
-                        <div className="stack__wrapper__title">
-                            OS
-                        </div>
-                        <div className="stack__wrapper__skills__os">
-                        </div>
-                    </div>
-
-                    <div className="stack__version">
-                        <div className="stack__wrapper__title">
-                            Version Control
-                        </div>
-                        <div className="stack__wrapper__skills__versioncontrol">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="portfolio">
+            <Stack/>
+            <div id="portfolio" className="section">
                 이곳은 포트폴리오영역
             </div>
-            <div id="phone">
-                이곳은 폰 영역
-            </div>
-        </>
+        </div>
     );
 }

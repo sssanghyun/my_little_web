@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-        <div id="intro">
+        <div id="intro" className="section">
             <div className="intro_intro">
                 <div className="intro_intro_text1">
                     웹 개발자 포트폴리오

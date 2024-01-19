@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-        <div id="career">
+        <div id="career" className="section">
             <div className="career__title">
                 CAREER
             </div>
@@ -28,15 +28,23 @@ export default function Intro() {
                             - 총 학점 평균 4.14 / 4.5
                         </li>
                         <li className="career__career1__li">
-                            - 정보처리기사 자격증 취득
+                            - (2020)네트워크 관리사 2급 자격증 취득
                         </li>
                         <li className="career__career1__li">
-                            - 졸업작품(4학년 1학기) &nbsp;&nbsp;
+                            - (2021)정보처리기사 자격증 취득
+                        </li>
+                        <li className="career__career1__li">
+                            - (2021)졸업작품 &nbsp;&nbsp;
                             <a href="">(링크)</a>
                         </li>
                         <li className="career__career1__li">
-                            - IPP 현장실습(4학년 2학기) &nbsp;&nbsp;
-                            <a href="">(링크)</a>
+                            - (2021.09 ~ 2021.12)IPP 현장실습(나눔아이씨티(주))
+                            <li>
+                            &nbsp;&nbsp;&nbsp;· 전자정부프레임워크를 활용한 웹 풀스택 개발
+                            </li>
+                            <li>
+                            &nbsp;&nbsp;&nbsp;· SQL쿼리문 최적화
+                            </li>
                         </li>
                     </ul>
                 </div>
@@ -79,9 +87,6 @@ export default function Intro() {
                         </li>
                         <li className="career__career1__li">
                             - 센서 데이터 수집 프로그램(Python) 개발
-                        </li>
-                        <li className="career__career1__li">
-                            - 사내 DB서버 구축(Centos, Mariadb)
                         </li>
                     </ul>
                 </div>
