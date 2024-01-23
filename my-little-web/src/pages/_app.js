@@ -1,56 +1,56 @@
 import Layout from "@/components/Layout";
-import '@/styles/header.css';
-import '@/styles/intro.css';
-import '@/styles/career.css';
-import '@/styles/stack.css';
-import '@/styles/portfolio.css';
-// import '@/styles/phone.css';
+import "@/styles/header.css";
+import "@/styles/intro.css";
+import "@/styles/career.css";
+import "@/styles/stack.css";
+import "@/styles/portfolio.css";
 
-export default function App({Component, pageProps}){
-	return (
-		<>
-			<Layout>
-				<Component {...pageProps} />
-			</Layout>
-			
-			<style jsx global>
-				{`
-				html {
-					scroll-behavior: smooth;
-				}
-				body {
-					margin: 0;
-				}
-				@font-face {
-					font-family: 'JalnanGothic';
-					src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
-					font-weight: normal;
-					font-style: normal;
-				}
-				@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+export default function App({ Component, pageProps }) {
+    return (
+        <>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
 
-				.notosanskr * { 
-				font-family: 'Noto Sans KR', sans-serif;
-				}
-				*{
-					box-sizing: border-box;
-					overflow: scroll;
-					/* IE scroll 숨김 */
-					-ms-overflow-style: none;
+            <style jsx global>
+                {`
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                    body {
+                        margin: 0;
+                    }
+                    @font-face {
+                        font-family: "JalnanGothic";
+                        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+                            format("woff");
+                        font-weight: normal;
+                        font-style: normal;
+                    }
+                    @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-				}
-				*::-webkit-scrollbar { 
-					display: none;
-					width: 0 !important;
-				}
-				@font-face {
-					font-family: 'IBMPlexSansKR-Regular';
-					src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-					font-weight: normal;
-					font-style: normal;
-				}
-				`}
-			</style>
-		</>
-        );
+                    .notosanskr * {
+                        font-family: "Noto Sans KR", sans-serif;
+                    }
+                    * {
+                        box-sizing: border-box;
+                        overflow: scroll;
+                        /* IE scroll 숨김 */
+                        -ms-overflow-style: none;
+                    }
+                    *::-webkit-scrollbar {
+                        display: none;
+                        width: 0 !important;
+                    }
+                    @font-face {
+                        font-family: "IBMPlexSansKR-Regular";
+                        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+                            format("woff");
+                        font-weight: normal;
+                        font-style: normal;
+                    }
+                `}
+            </style>
+        </>
+    );
 }
