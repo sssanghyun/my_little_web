@@ -49,10 +49,9 @@ export default function Intro() {
                                 src="aboutme3.png"
                             ></img>
                         </div>
-                        <div className="intro_intro_text4 education">학력</div>
+                        <div className="intro_intro_text4">학력</div>
                         <div className="intro_intro_text5">
-                            협성대학교<br></br>
-                            (컴퓨터공학과)
+                            협성대학교(컴퓨터공학과)
                         </div>
                     </div>
                     <div className="intro_intro_aboutme_item">
