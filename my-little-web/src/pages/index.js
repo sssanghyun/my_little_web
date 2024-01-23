@@ -2,6 +2,7 @@ import Seo from "@/components/Seo";
 import Intro from "@/components/Intro";
 import Career from "@/components/Career";
 import Stack from "@/components/Stack";
+import Portfolio from "@/components/Portfolio";
 
 // 스크롤 시 한페이지씩 넘어가는 기능
 // if (typeof window === 'object') {
@@ -36,9 +37,7 @@ export default function Home() {
             <Intro/>
             <Career/>
             <Stack/>
-            <div id="portfolio" className="section">
-                이곳은 포트폴리오영역
-            </div>
+            <Portfolio/>
         </div>
     );
 }

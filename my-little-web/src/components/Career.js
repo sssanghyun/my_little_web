@@ -39,12 +39,14 @@ export default function Intro() {
                         </li>
                         <li className="career__career1__li">
                             - (2021.09 ~ 2021.12)IPP 현장실습(나눔아이씨티(주))
-                            <li>
-                            &nbsp;&nbsp;&nbsp;· 전자정부프레임워크를 활용한 웹 풀스택 개발
-                            </li>
-                            <li>
-                            &nbsp;&nbsp;&nbsp;· SQL쿼리문 최적화
-                            </li>
+                            <ul>
+                                <li>
+                                    &nbsp;&nbsp;&nbsp;· 전자정부프레임워크를 활용한 웹 풀스택 개발
+                                </li>
+                                <li>
+                                    &nbsp;&nbsp;&nbsp;· SQL쿼리문 최적화
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
