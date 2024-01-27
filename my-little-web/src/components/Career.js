@@ -39,6 +39,7 @@ export default function Intro() {
                         <li className="career__career1__li">
                             - (2021.09 ~ 2021.12)IPP 현장실습(나눔아이씨티(주))
                             <ul>
+                                <br></br>
                                 <li>
                                     &nbsp;&nbsp;&nbsp;· 전자정부프레임워크를
                                     활용한 웹 풀스택 개발
@@ -60,6 +61,7 @@ export default function Intro() {
                 <div className="career__career1__line">
                     <div className="career__career1__line__circle" />
                     <div className="career__career1__line__line" />
+                    <div className="career__career1__line__circle last" />
                 </div>
                 <div className="career__career1__comment">
                     <div className="career__career1__period">
@@ -96,8 +98,6 @@ export default function Intro() {
                     </ul>
                 </div>
             </div>
-
-            <div className="career__career1__line__circle" />
         </div>
     );
 }

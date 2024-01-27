@@ -61,6 +61,17 @@ export default function App({ Component, pageProps }) {
                         .portfolio__container {
                             max-width: 95vw;
                         }
+                        /* 모바일 환경 Career 페이지 재정의 */
+                        .career__career1 {
+                            grid-template-columns: 0.1fr 0.1fr 1fr;
+                        }
+                        .career__career1__symbol {
+                            display: none;
+                        }
+                        /* 모바일 환경 Portfolio 페이지 재정의 */
+                        .portfolio__container {
+                            grid-template-columns: 1fr;
+                        }
                     }
                     html {
                         scroll-behavior: smooth;
