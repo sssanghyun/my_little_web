@@ -17,13 +17,13 @@
     align-items: center;
     justify-content: space-between;
     height: 3.75rem;
-    max-width: 67.5rem;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
 .header__start {
-    line-height: 2.5rem;
-    width: 20%;
+    /* line-height: 2.5rem; */
+    width: 30%;
 }
 .header__title {
     /* display: block; */
@@ -35,6 +35,11 @@
 .header__center {
     width: 70%;
 }
+
+a.header__title__a {
+    font-size: 1.5rem;
+}
+
 a.header__title__a,
 a.nav__wrapper__a {
     text-decoration-line: none;
@@ -97,5 +102,5 @@ img.darkmode {
 } */
 a.nav__right__wrapper__a {
     text-decoration-line: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }

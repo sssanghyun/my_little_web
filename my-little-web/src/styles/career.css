@@ -1,4 +1,4 @@
-#career{
+#career {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
@@ -8,74 +8,74 @@
     /* margin-bottom: 5vh; */
     background-color: #f6f6f6;
 }
-.career__title{
-    color:rgb(46, 39, 1);
-    font-family: 'JalnanGothic';
+.career__title {
+    color: rgb(46, 39, 1);
+    font-family: "JalnanGothic";
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    font-weight:700;
+    font-weight: 700;
     margin-bottom: 8vh;
 }
-.career__career1{
+.career__career1 {
     margin: 0 auto;
     max-width: 70vw;
     display: grid;
     grid-template-columns: 1fr 0.1fr 1fr;
-    font-family: 'IBMPlexSansKR-Regular';
+    font-family: "IBMPlexSansKR-Regular";
 }
-.career__career1__icon{
+.career__career1__icon {
     display: flex;
     align-items: center;
     justify-self: center;
 }
-img.career__career1__symbol{
-    width: 75%;
+img.career__career1__symbol {
+    width: 15rem;
     margin: 0 auto;
     /* height: ; */
 }
-.career__career1__line{
+.career__career1__line {
     margin: 0 auto;
 }
-.career__career1__comment{
+.career__career1__comment {
     padding-left: 3vw;
     padding-bottom: 3vh;
 }
-.career__career1__period{
+.career__career1__period {
     color: gray;
     font-size: 0.75rem;
-    font-weight:600;
+    font-weight: 600;
 }
-.career__career1__title{
+.career__career1__title {
     color: black;
     font-size: 1.5rem;
-    font-weight:700;
+    font-weight: 700;
 }
-.career__career1__subtitle{
+.career__career1__subtitle {
     color: black;
     font-size: 1rem;
-    font-weight:600;
+    font-weight: 600;
 }
-.career__career1__line__circle{
+.career__career1__line__circle {
     width: 1rem;
     height: 1rem;
     background-color: rgb(50, 50, 50);
     border-radius: 50%;
     margin: 0 auto;
 }
-.career__career1__line__line{
+.career__career1__line__line {
     margin: 0 auto;
     background-color: rgb(50, 50, 50);
     width: 0.25rem;
     height: 100%;
 }
-.career__career1__ul{
+.career__career1__ul {
     margin-left: -1rem;
 }
-.career__career1__li{
+.career__career1__li {
     padding: 1%;
     font-size: 0.75rem;
-    font-weight:600;
+    font-weight: 600;
     color: rgb(94, 94, 94);
 }
