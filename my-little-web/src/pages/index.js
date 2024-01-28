@@ -12,7 +12,7 @@ import Portfolio from "@/components/Portfolio";
 //     const section = document.getElementsByClassName('section');
 //     let page = 0; // 영역 포지션 초기값
 //     const lastPage = section.length - 1; // 마지막 페이지
-    
+
 //     window.addEventListener('wheel',(e)=>{
 //         e.preventDefault();
 //         if(e.deltaY > 0){
@@ -31,13 +31,13 @@ import Portfolio from "@/components/Portfolio";
 // }
 
 export default function Home() {
-    return(
+    return (
         <div className="wrap">
-            <Seo title="Ssanghyun's 포트폴리오"/>
-            <Intro/>
-            <Career/>
-            <Stack/>
-            <Portfolio/>
+            <Seo title="박상현`s WEB Portfolio" />
+            <Intro />
+            <Career />
+            <Stack />
+            <Portfolio />
         </div>
     );
 }

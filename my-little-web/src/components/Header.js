@@ -23,7 +23,7 @@ export default function Header() {
                 <span className="header__start">
                     <span className="header__title">
                         <a className="header__title__a" href="/">
-                            &lt;/&gt;SSanghyun's
+                            &lt;/&gt;박상현's WEB
                         </a>
                     </span>
                 </span>

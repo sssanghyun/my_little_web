@@ -5,11 +5,25 @@ class MyDocument extends Document {
         return (
             <Html lang="ko">
                 <Head>
-                    <meta name="title" content="Ssanghyun's 포트폴리오" />
+                    <meta name="title" content="박상현's WEB Portfolio" />
                     <meta
                         name="description"
                         content="포트폴리오 웹 페이지입니다."
                     />
+                    <meta
+                        property="og:title"
+                        content="박상현's WEB Portfolio"
+                    />
+                    <meta
+                        property="og:description"
+                        content="웹 개발자 박상현의 포트폴리오 사이트입니다."
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://www.sanghyun-park.site/"
+                    />
+                    <meta property="og:image" content="/portfolio_3_1.png" />
 
                     <link rel="icon" href="/favicon.ico" />
                     <link
