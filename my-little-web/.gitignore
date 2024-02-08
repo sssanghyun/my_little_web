@@ -39,3 +39,5 @@ next-env.d.ts
 ca_bundle.crt
 certificate.crt
 private.key
+
+packge-lock.json

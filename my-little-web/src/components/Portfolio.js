@@ -3,6 +3,70 @@ export default function Portfolio() {
         <div id="portfolio" className="section">
             <div className="portfolio__title">PORTFOLIO</div>
             <div className="portfolio__container">
+            <div className="portfolio__wrapper">
+                    <div className="portfolio__wrapper__title">
+                        Express 게시판 토이 프로젝트
+                    </div>
+                    <a
+                        className="tile"
+                        target="_blank"
+                        href="https://fluffy-liver-e61.notion.site/8c66d287165f460dae96051aa81daaa5?pvs=4"
+                    >
+                        <div className="portfolio__wrapper__content">
+                            <div className="portfolio__wrapper__content__photo">
+                                <img src="portfolio_4_1.gif"></img>
+                            </div>
+                            <div className="portfolio__wrapper__content__text">
+                                <div className="portfolio__wrapper__content__text__wrapper">
+                                    <div className="portfolio__bold__text">
+                                        개발 기간
+                                    </div>
+                                    <div className="portfolio__nomal__text">
+                                        2024.01 ~ 2024.02
+                                    </div>
+                                </div>
+                                <div className="portfolio__wrapper__content__text__wrapper">
+                                    <div className="portfolio__bold__text">
+                                        개발 인원
+                                    </div>
+                                    <div className="portfolio__nomal__text">
+                                        개인 프로젝트
+                                    </div>
+                                </div>
+                                <div className="portfolio__wrapper__content__text__wrapper">
+                                    <div className="portfolio__bold__text">
+                                        주요 기능
+                                    </div>
+                                    <div className="portfolio__nomal__text">
+                                        ✔ 기본적인 CRUD(게시판 작성, 수정, 삭제) 기능
+                                        <br />✔ 회원가입, 로그인 패스워드 암호화(bcrypt)
+                                        <br />✔ Session 기능(express-session)
+                                        <br />✔ Restful API
+                                    </div>
+                                </div>
+                                <div className="portfolio__wrapper__content__text__wrapper">
+                                    <div className="portfolio__bold__text">
+                                        사용 기술
+                                    </div>
+                                    <div className="portfolio__nomal__text">
+                                    Next.js(v14.1.0), Express(v4.18.2), Node(v20.9.0), mariaDB(v10.6.7)
+                                    </div>
+                                    <div>
+                                        <br></br>
+                                        <b>Click more...</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="details">
+                            <span className="title">
+                            Express 게시판 토이 프로젝트 Detail
+                            </span>
+                            <span className="info">Click Me!</span>
+                        </div>
+                    </a>
+                </div>
                 <div className="portfolio__wrapper">
                     <div className="portfolio__wrapper__title">
                         NEXT.JS 포트폴리오 웹사이트 개발
@@ -14,7 +78,7 @@ export default function Portfolio() {
                     >
                         <div className="portfolio__wrapper__content">
                             <div className="portfolio__wrapper__content__photo">
-                                <img src="portfolio_3_1.png"></img>
+                                <img src="portfolio_3_2.gif"></img>
                             </div>
                             <div className="portfolio__wrapper__content__text">
                                 <div className="portfolio__wrapper__content__text__wrapper">
@@ -147,7 +211,7 @@ export default function Portfolio() {
                     >
                         <div className="portfolio__wrapper__content">
                             <div className="portfolio__wrapper__content__photo">
-                                <img src="portfolio_2_6.png"></img>
+                                <img src="portfolio_2_7.gif"></img>
                             </div>
                             <div className="portfolio__wrapper__content__text">
                                 <div className="portfolio__wrapper__content__text__wrapper">
